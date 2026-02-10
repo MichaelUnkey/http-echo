@@ -1,0 +1,40 @@
+# Git
+.git
+.github
+.gitignore
+
+# Build artifacts
+dist/
+bin/
+pkg/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test and coverage
+*.test
+*.out
+coverage.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Documentation
+docs/
+README.md
+*.md
+
+# Release
+.release/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Makefile
+Makefile
