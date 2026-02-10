@@ -21,7 +21,7 @@ LABEL name="http-echo" \
 COPY dist/$TARGETOS/$TARGETARCH/$BIN_NAME /
 COPY LICENSE /usr/share/doc/$PRODUCT_NAME/LICENSE.txt
 
-EXPOSE 5678/tcp
+EXPOSE 8080/tcp
 
 ENV ECHO_TEXT="hello-world"
 
